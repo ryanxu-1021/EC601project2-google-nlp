@@ -12,7 +12,7 @@ Then setting up authentication.
 
 <img src="1601261119(2).png">
 
-And I need to using powershell behind a proxy server.
+And I need to using powershell behind a proxy server. Or it will be working so slow that may take more than 10 minutes, and then the powershell will report an error.
 
 <img src="1601261195(3).png">
 
@@ -31,4 +31,4 @@ There is the result
 <img src="1601261453(6).png">
 
 It can recognize the name for example, Lebron James and Erik Spoelstra and also give the link of wikipedia. And it can also recognize the team such as LAKERS, but HEAT can
- not be recognized. I think it's because there are many different other meanings of heat. And the system may be not good enough to analyze its actual meaning.
+ not be recognized. I think it's because there are many different other meanings of heat. And the system may be not good enough to analyze its actual meaning. As for the sentiment, the Google nlp thinks it's a kind of negitive sentence.
