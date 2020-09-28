@@ -16,13 +16,15 @@ And I need to using powershell behind a proxy server. Or it will be working so s
 
 <img src="1601261195(3).png">
 
-Then I run the example shown in the Using client library, it works.
+Then I run the example shown in the Using client library, it works. It just input the text "Hello World!", and analyze its sentiment. The result shows it's a positive sentence.
 
 <img src="1601261246(4).png">
 
-Then I combine the function of entities and sentiment together.
+I want to use more functions of NLP and want to analyze the text that I'm interested in. So I combine the function of entities and sentiment together.
 
 I input the following text, LAKERS OR HEAT? LeBron James faces off with former coach Erik Spoelstra in the #2020NBAFinals.
+
+I want to see whether it can exactly tell what LAKERS and HEAT are and so as the names. 
 
 There is the result
 
@@ -30,5 +32,4 @@ There is the result
 
 <img src="1601261453(6).png">
 
-It can recognize the name for example, Lebron James and Erik Spoelstra and also give the link of wikipedia. And it can also recognize the team such as LAKERS, but HEAT can
- not be recognized. I think it's because there are many different other meanings of heat. And the system may be not good enough to analyze its actual meaning. As for the sentiment, the Google nlp thinks it's a kind of negitive sentence.
+It can recognize the names. The system recogenizes Lebron James and Erik Spoelstra. They are also given the link of wikipedia. And it can also recognize the team such as LAKERS, but HEAT can not be recognized. I think it's because there are many different other meanings of heat. And the system may be not good enough to analyze its actual meaning. As for the sentiment, the Google nlp thinks it's a kind of negitive sentence.
